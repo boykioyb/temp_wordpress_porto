@@ -1,0 +1,44 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+/*****************************************************************/
+/*
+/*** 00. Minicart Icon
+/*** 01. Config Variables
+/*** 02. FontAwesome Icon
+/*** 03. Elusive Icon
+/*** 04. Owl Carousel
+/*** 05. Easy Responsive Tabs
+/*** 06. jQuery Srollbar
+/*** 07. Blueimp Gallery
+/*** 08. jQuery Fancybox
+/*** 09. Circle Flip Slideshow
+/*** 10. Simple Line Icons
+/*
+/*****************************************************************/
+
+// DIRECTIONAL
+// ---------------------------------------------------------------
+$rtl: 0;
+$dir: ltr !default;
+
+@import "plugins/directional";
+
+@import "plugins/minicart-font/minicart-font";
+@import "config_plugins";
+@import "plugins/fontawesome/font-awesome";
+@import "plugins/elusive-icon/elusive-icons";
+@import "plugins/owlcarousel/owl.animate";
+@import "plugins/owlcarousel/owl.autoheight";
+@import "plugins/owlcarousel/owl.carousel";
+@import "plugins/owlcarousel/owl.lazyload";
+@import "plugins/owlcarousel/owl.video";
+@import "plugins/owlcarousel/owl.theme.default";
+@import "plugins/easy-responsive-tabs/easy-responsive-tabs";
+@import "plugins/jquery.scrollbar/jquery.scrollbar";
+@import "plugins/blueimp-gallery/blueimp-gallery";
+@import "plugins/blueimp-gallery/blueimp-gallery-indicator";
+@import "plugins/blueimp-gallery/blueimp-gallery-video";
+@import "plugins/jquery.fancybox/jquery.fancybox";
+@import "plugins/circle-flip-slideshow/component";
+@import "plugins/Simple-Line-Icons/Simple-Line-Icons";
